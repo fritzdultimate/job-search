@@ -14,22 +14,10 @@
               <a href="" class="flex items-center h-full py-2.5">Teams</a>
             </li>
 
-            <li class="h-full ml-9">
-              <a href="" class="flex items-center h-full py-2.5">Locations</a>
-            </li>
-            <li class="h-full ml-9">
+            <li class="h-full ml-9" v-for="menuItem in menuItems">
               <a href="" class="flex items-center h-full py-2.5">
-                Life at Fritz Corp
+                {{ menuItem }}
               </a>
-            </li>
-            <li class="h-full ml-9">
-              <a href="" class="flex items-center h-full py-2.5">How we hire</a>
-            </li>
-            <li class="h-full ml-9">
-              <a href="" class="flex items-center h-full py-2.5">Students</a>
-            </li>
-            <li class="h-full ml-9">
-              <a href="" class="flex items-center h-full py-2.5">Jobs</a>
             </li>
           </ul>
         </nav>
@@ -45,6 +33,7 @@ export default {
     return {
       company: "Fritz Careers",
       url: "https://careers.google.com",
+      menuItems: ["Teams", "Locations", "How we hire", "Students", "Jobs"],
     };
   },
 };
