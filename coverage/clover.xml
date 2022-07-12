@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657621623119" clover="3.2.0">
-  <project timestamp="1657621623119" name="All files">
+<coverage generated="1657625605514" clover="3.2.0">
+  <project timestamp="1657625605514" name="All files">
     <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
     <file name="MainNav.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\MainNav.vue">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="34" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
