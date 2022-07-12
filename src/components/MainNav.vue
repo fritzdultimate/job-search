@@ -23,7 +23,7 @@
           </ul>
         </nav>
         <div class="flex items-center h-full ml-auto">
-          <action-button />
+          <action-button v-if="!isLoggedIn" />
         </div>
       </div>
     </div>
@@ -43,6 +43,7 @@ export default {
       company: "Fritz Careers",
       url: "https://careers.google.com",
       menuItems: ["Teams", "Locations", "How we hire", "Students", "Jobs"],
+      isLoggedIn: false,
     };
   },
 };
