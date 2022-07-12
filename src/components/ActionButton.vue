@@ -1,5 +1,9 @@
 <template>
-  <button>Sign In</button>
+  <button
+    class="px-5 py-3 font-medium text-white border-0 rounded bg-brand-blue-1"
+  >
+    Sign In
+  </button>
 </template>
 
 <script>
