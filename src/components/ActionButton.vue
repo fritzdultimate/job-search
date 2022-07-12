@@ -1,7 +1,7 @@
 <template>
   <button
-    @click="handleClick"
     class="px-5 py-3 font-medium text-white border-0 rounded bg-brand-blue-1 hover:shadow-blue"
+    @click="handleClick"
   >
     Sign In
   </button>
@@ -12,7 +12,7 @@ export default {
   name: "ActionButton",
   methods: {
     handleClick() {
-      console.log("I have been clicked");
+      alert("I have been clicked");
     },
   },
 };
