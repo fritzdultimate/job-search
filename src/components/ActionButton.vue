@@ -11,8 +11,7 @@ export default {
   computed: {
     buttonClass() {
       return {
-        primary: this.type === "primary",
-        secondary: this.type === "secondary",
+        [this.type]: true,
       };
     },
   },
