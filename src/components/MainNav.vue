@@ -16,7 +16,7 @@
               class="h-full ml-9 first:ml-0"
               data-test="main-nav-list-item"
             >
-              <a href="" class="flex items-center h-full py-2.5">
+              <a href="#" class="flex items-center h-full py-2.5">
                 {{ menuItem }}
               </a>
             </li>
