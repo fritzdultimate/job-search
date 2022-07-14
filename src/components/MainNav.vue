@@ -27,7 +27,7 @@
           <action-button
             v-else
             text="Sign in"
-            :is-primary="true"
+            type="primary"
             data-test="login-button"
             @click="loginUser"
           />

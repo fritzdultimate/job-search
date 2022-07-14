@@ -7,17 +7,12 @@
 <script>
 export default {
   name: "ActionButton",
-  props: ["text", "isPrimary"],
-  data() {
-    return {
-      primary: this.isPrimary,
-    };
-  },
+  props: ["text", "type"],
   computed: {
     buttonClass() {
       return {
-        primary: this.primary,
-        secondary: !this.primary,
+        primary: this.type === "primary",
+        secondary: this.type === "secondary",
       };
     },
   },
