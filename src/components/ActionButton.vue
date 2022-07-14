@@ -7,10 +7,10 @@
 <script>
 export default {
   name: "ActionButton",
-  props: ["text"],
+  props: ["text", "isPrimary"],
   data() {
     return {
-      primary: true,
+      primary: this.isPrimary,
     };
   },
   computed: {
