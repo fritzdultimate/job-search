@@ -7,7 +7,17 @@
 <script>
 export default {
   name: "ActionButton",
-  props: ["text", "type"],
+  props: {
+    text: {
+      type: String,
+      required: true,
+    },
+    type: {
+      type: String,
+      required: false,
+      default: "primary",
+    },
+  },
   computed: {
     buttonClass() {
       return {
