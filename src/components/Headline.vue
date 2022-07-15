@@ -1,6 +1,10 @@
 <template>
   <section>
-    <h1>{{ action }} for everyone</h1>
+    <h1>
+      <span :class="actionClasses">{{ action }}</span>
+      <br />
+      for everyone
+    </h1>
     <h2>Find your next job at Fritz Careers</h2>
   </section>
 </template>
@@ -14,6 +18,16 @@ export default {
       action: "Build",
       interval: null,
     };
+  },
+  computed: {
+    actionClasses() {
+      return {
+        build: this.action === "Build",
+        create: this.action === "Create",
+        design: this.action === "Design",
+        code: this.action === "Code",
+      };
+    },
   },
   created() {
     this.changeTitle();
@@ -34,3 +48,21 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.build {
+  color: #1a73e8;
+}
+
+.create {
+  color: #34a853;
+}
+
+.design {
+  color: #f9ab00;
+}
+
+.code {
+  color: #d93025;
+}
+</style>
