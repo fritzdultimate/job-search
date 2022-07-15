@@ -23,5 +23,17 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Hero",
+  beforeCreate() {
+    console.log("component about to be created");
+  },
+  created() {
+    console.log("component created");
+  },
+  beforeMount() {
+    console.log("component is about to be mounted");
+  },
+  mounted() {
+    console.log("component mounted");
+  },
 };
 </script>
