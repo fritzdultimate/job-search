@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Build for everyone</h1>
+    <h1>{{ action }} for everyone</h1>
     <h2>Find your next job at Fritz Careers</h2>
   </section>
 </template>
@@ -11,9 +11,26 @@ export default {
   name: "Headline",
   data() {
     return {
-      sample: "Hello",
+      action: "Build",
+      interval: null,
     };
   },
-  created() {},
+  created() {
+    this.changeTitle();
+  },
+  beforeUnmount() {
+    clearInterval(this.interval);
+  },
+  methods: {
+    changeTitle() {
+      this.interval = setInterval(() => {
+        const actions = ["Build", "Create", "Design", "Code"];
+        const currentActionIndex = actions.indexOf(this.action); // 0
+        const nextActionIndex = (currentActionIndex + 1) % 4;
+        const nextAction = actions[nextActionIndex];
+        this.action = nextAction;
+      }, 3000);
+    },
+  },
 };
 </script>
