@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657844484469" clover="3.2.0">
-  <project timestamp="1657844484469" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="8" coveredelements="8" complexity="0" loc="5" ncloc="5" packages="1" files="2" classes="2"/>
+<coverage generated="1657890317777" clover="3.2.0">
+  <project timestamp="1657890317779" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="11" coveredelements="11" complexity="0" loc="7" ncloc="7" packages="1" files="3" classes="3"/>
     <file name="ActionButton.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\ActionButton.vue">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="8" count="2" type="stmt"/>
@@ -12,6 +12,11 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="6" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="Subnav.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Subnav.vue">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>

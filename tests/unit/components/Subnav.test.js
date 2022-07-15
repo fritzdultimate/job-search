@@ -12,7 +12,7 @@ describe("Subnav", () => {
           };
         },
       });
-      const jobCount = wrapper.find("data-test='job-count'");
+      const jobCount = wrapper.find("[data-test='job-count']");
       expect(jobCount.exists()).toBe(true);
     });
   });
@@ -26,8 +26,8 @@ describe("Subnav", () => {
           };
         },
       });
-      const jobCount = wrapper.find("data-test='job-count'");
+      const jobCount = wrapper.find("[data-test='job-count']");
       expect(jobCount.exists()).toBe(false);
-    })
+    });
   });
 });
