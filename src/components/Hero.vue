@@ -6,7 +6,7 @@
           1 column
         </div>
         <div class="col-start-2 col-span-5 border border-blue-700">
-          5 columns
+          <headline />
         </div>
         <div class="col-start-7 col-span-5 border border-blue-700">
           5 columns
@@ -20,9 +20,13 @@
 </template>
 
 <script>
+import Headline from "@/components/Headline.vue";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Hero",
+  components: {
+    Headline,
+  },
   beforeCreate() {
     console.log("component about to be created");
   },
