@@ -1,5 +1,5 @@
 import { shallowMount } from "@vue/test-utils";
-import MainNav from "@/components/MainNav.vue";
+import MainNav from "@/components/Navigation/MainNav.vue";
 
 describe("MainNav", () => {
   it("displays company name", () => {

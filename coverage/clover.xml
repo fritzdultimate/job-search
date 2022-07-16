@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657974261842" clover="3.2.0">
-  <project timestamp="1657974261842" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="17" coveredelements="17" complexity="0" loc="12" ncloc="12" packages="2" files="4" classes="4"/>
+<coverage generated="1657989391891" clover="3.2.0">
+  <project timestamp="1657989391892" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="17" coveredelements="17" complexity="0" loc="12" ncloc="12" packages="3" files="4" classes="4"/>
     <package name="components">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="ActionButton.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\ActionButton.vue">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="20" count="7" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="26" count="2" type="stmt"/>
       </file>
-      <file name="ProfileImage.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\ProfileImage.vue">
+    </package>
+    <package name="components.Navigation">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ProfileImage.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Navigation\ProfileImage.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="Subnav.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Subnav.vue">
+      <file name="Subnav.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Navigation\Subnav.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
       </file>
     </package>
