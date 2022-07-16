@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import Headline from "@/components/Headline.vue";
-import JobSearchForm from "@/components/JobSearchForm.vue";
+import Headline from "@/components/JobSearch/Headline.vue";
+import JobSearchForm from "@/components/JobSearch/JobSearchForm.vue";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Hero",
