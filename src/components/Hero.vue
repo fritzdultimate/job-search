@@ -8,8 +8,11 @@
           <job-search-form />
         </div>
 
-        <div class="col-start-7 col-span-5 self-center justify-self-center">
-          <img class="w-80 h-80 object-contain" src="">
+        <div class="col-start-7 col-span-5 self-start justify-self-center">
+          <img
+            class="w-[500px] h-[500px] object-contain"
+            src="https://careers.google.com/jobs/dist/img/assets/hero-04_1x.5377e160fa426c8b388a861f23cc185b.png"
+          />
         </div>
 
         <div class="col-start-12 col-span-1"></div>
