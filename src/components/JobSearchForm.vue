@@ -24,7 +24,7 @@
         <input
           v-model="location"
           type="text"
-          placeholder="Lagos"
+          placeholder="Awka, Anambra"
           class="w-full text-lg font-normal focus:outline-none"
         />
       </div>
