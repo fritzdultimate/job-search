@@ -16,7 +16,7 @@
 
       <div class="relative flex items-center flex-1 h-full pl-3">
         <label class="absolute left-0 -top-10">Where</label>
-        <text-input placeholder="Awka, Anambra" />
+        <text-input placeholder="Awka, Anambra" @handleInput="9" />
       </div>
     </div>
 
@@ -38,6 +38,9 @@ export default {
       role: "",
       location: "",
     };
+  },
+  methods: {
+    updateRole(payload) {},
   },
 };
 </script>
