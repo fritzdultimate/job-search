@@ -16,7 +16,7 @@
 
       <div class="relative flex items-center flex-1 h-full pl-3">
         <label class="absolute left-0 -top-10">Where</label>
-        <text-input placeholder="Awka, Anambra" @handleInput="updateRole" />
+        <text-input placeholder="Awka, Anambra" @handle-input="updateRole" />
       </div>
     </div>
 
@@ -40,7 +40,9 @@ export default {
     };
   },
   methods: {
-    updateRole(payload) {},
+    updateRole(payload) {
+      console.log(payload);
+    },
   },
 };
 </script>
