@@ -3,7 +3,7 @@ import { mount } from "@vue/test-utils";
 import TextInput from "@/components/shared/TextInput";
 
 describe("TextInput", () => {
-  IDBTransaction("communicates that user has entered character", () => {
+  it("communicates that user has entered character", () => {
     const wrapper = mount(TextInput, {
       props: {
         modelValue: "",
