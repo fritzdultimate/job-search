@@ -7,7 +7,10 @@
     <div class="flex flex-nowrap flex-1 h-full text-base font-light">
       <div class="relative flex items-center flex-1 h-full pr-3">
         <label class="absolute left-0 -top-10">Role</label>
-        <text-input placeholder="Software engineer" />
+        <text-input
+          placeholder="Software engineer"
+          @handle-input="updateRole"
+        />
       </div>
       <span
         class="flex items-center h-full px-3 border-l border-r border-brand-gray-3 bg-brand-gray-2"
@@ -16,7 +19,10 @@
 
       <div class="relative flex items-center flex-1 h-full pl-3">
         <label class="absolute left-0 -top-10">Where</label>
-        <text-input placeholder="Awka, Anambra" @handle-input="updateRole" />
+        <text-input
+          placeholder="Awka, Anambra"
+          @handle-input="updateLocation"
+        />
       </div>
     </div>
 
@@ -41,7 +47,10 @@ export default {
   },
   methods: {
     updateRole(payload) {
-      console.log(payload);
+      this.role = payload;
+    },
+    updateLocation(payload) {
+      this.location = payload;
     },
   },
 };
