@@ -13,10 +13,10 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Subnav",
-  data() {
-    return {
-      onJobResultsPage: true,
-    };
+  computed: {
+    onJobResultsPage() {
+      return this.$route.name === "JobResults";
+    },
   },
 };
 </script>

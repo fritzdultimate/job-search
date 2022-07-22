@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658366970704" clover="3.2.0">
-  <project timestamp="1658366970704" name="All files">
+<coverage generated="1658526427287" clover="3.2.0">
+  <project timestamp="1658526427287" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="20" coveredelements="20" complexity="0" loc="14" ncloc="14" packages="3" files="5" classes="5"/>
     <package name="components.Navigation">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -12,7 +12,7 @@
       <file name="Subnav.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Navigation\Subnav.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
       </file>
     </package>
     <package name="components.Shared">
