@@ -22,7 +22,7 @@ describe("JobSearchForm", () => {
       roleInput.setValue("Vue Developer");
 
       const locationInput = wrapper.find("[data-test='location-input']");
-      locationInput.setValue("awka");
+      locationInput.setValue("Awka");
 
       const submitButton = wrapper.find("[data-test='form-submit-button']");
       await submitButton.trigger("click");
