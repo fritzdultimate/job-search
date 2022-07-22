@@ -8,6 +8,7 @@ describe("JobSearchForm", () => {
       const push = jest.fn();
       const $router = { push };
       const wrapper = mount(JobSearchForm, {
+        attachTo: document.body,
         global: {
           mocks: {
             $router,
