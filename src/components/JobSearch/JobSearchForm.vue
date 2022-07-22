@@ -24,7 +24,7 @@
         <text-input
           v-model="location"
           placeholder="Awka, Anambra"
-          data-test="input-location"
+          data-test="location-input"
         />
       </div>
     </div>
