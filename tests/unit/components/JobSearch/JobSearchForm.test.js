@@ -30,7 +30,7 @@ describe("JobSearchForm", () => {
       expect(push).toHaveBeenCalledWith({
         name: "JobResults",
         query: {
-          role: "Vue Developer",
+          role: "Vue Developerzz",
           location: "Awka",
         },
       });
