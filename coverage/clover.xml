@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658531002803" clover="3.2.0">
-  <project timestamp="1658531002804" name="All files">
+<coverage generated="1658531062279" clover="3.2.0">
+  <project timestamp="1658531062280" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="20" coveredelements="20" complexity="0" loc="14" ncloc="14" packages="3" files="5" classes="5"/>
     <package name="components.Navigation">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -26,7 +26,7 @@
       <file name="TextInput.vue" path="C:\Users\pc\Desktop\Workspace\job-search\src\components\Shared\TextInput.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="28" count="4" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
       </file>
     </package>
     <package name="utils">
