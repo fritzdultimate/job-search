@@ -15,7 +15,9 @@
           </div>
 
           <div>
-            <span>Ifite Awka, Anambra, Nigeria</span>
+            <ul>
+              <li v-for="location in job.locations" :key="location"></li>
+            </ul>
           </div>
         </div>
       </div>
