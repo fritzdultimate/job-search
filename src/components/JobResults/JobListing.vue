@@ -36,7 +36,7 @@
                 v-for="qualification in minimumQualifications"
                 :key="qualification"
               >
-                Bachelor's degree or equivalent practice experience
+                {{ qualification }}
               </li>
             </ul>
           </div>
