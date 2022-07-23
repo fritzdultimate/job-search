@@ -21,13 +21,14 @@ describe("JobListing", () => {
     },
   });
   it("renders job title", () => {
-    const props = createJobProps({ title: "Vue Pro" });
+    const props = createJobProps({ title: "Vue Developer" });
     const wrapper = mount(JobListing, createConfig(props));
     expect(wrapper.text()).toMatch("Vue Developer");
   });
 
   it("renders job organization", () => {
-    const wrapper = mount(JobListing, createConfig());
+    const props = createJobProps({ organization: "C2GEN" });
+    const wrapper = mount(JobListing, createConfig(props));
     expect(wrapper.text()).toMatch("C2GEN");
   });
 });
