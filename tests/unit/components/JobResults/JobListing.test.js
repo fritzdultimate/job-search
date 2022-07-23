@@ -7,6 +7,7 @@ describe("JobListing", () => {
     title: "Vue Developer",
     organization: "C2GEN",
     locations: ["Lisbon"],
+    minimumQualifications: ["code", "Develop"],
     ...jobProps,
   });
   const createConfig = (jobProps) => ({
@@ -38,5 +39,14 @@ describe("JobListing", () => {
     const wrapper = mount(JobListing, createConfig(jobProps));
     expect(wrapper.text()).toMatch("Lisbon");
     expect(wrapper.text()).toMatch("Lisbon");
+  });
+
+  it("renders job qualifications", () => {
+    const jobProps = createJobProps({
+      minimumQualifications: ["Code", "Develop"],
+    });
+    const wrapper = mount(JobListing, createConfig(jobProps));
+    expect(wrapper.text()).toMatch("Code");
+    expect(wrapper.text()).toMatch("Develop");
   });
 });
