@@ -21,6 +21,24 @@
               </div>
             </div>
           </div>
+          <div class="px-8 py-4">
+            <div>
+              <h3 class="mt-1 mb-2">Qualifications:</h3>
+              <div>
+                <ul class="pl-8 list-disc">
+                  <li>Bachelor's degree or equivalent practice experience</li>
+                  <li>5 years experience in program management</li>
+                  <li>Bachelor's degree or equivalent practice experience</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mt-2 text-center">
+              <router-link to="/jobs/results/1" class="text-brand-blue-1"
+                >Expand</router-link
+              >
+            </div>
+          </div>
         </router-link>
       </li>
     </ol>
