@@ -11,7 +11,7 @@
 
         <div class="flex flex-row align-middle">
           <div class="mr-5">
-            <span>C2GEN</span>
+            <span>{{ job.organization }}</span>
           </div>
 
           <div>
