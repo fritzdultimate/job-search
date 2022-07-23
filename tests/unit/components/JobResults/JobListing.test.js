@@ -18,4 +18,20 @@ describe("JobListing", () => {
     });
     expect(wrapper.text()).toMatch("Vue Developer");
   });
+
+  it("renders job organization", () => {
+    const wrapper = mount(JobListing, {
+      props: {
+        job: {
+          organization: "C2GEN",
+        },
+      },
+      global: {
+        stubs: {
+          "router-link": RouterLinkStub,
+        },
+      },
+    });
+    expect(wrapper.text()).toMatch("C2GEN");
+  });
 });
