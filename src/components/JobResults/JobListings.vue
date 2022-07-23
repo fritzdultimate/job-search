@@ -20,10 +20,9 @@ export default {
       jobs: [],
     };
   },
-  mounted() {
-    axios.get("http://localhost:3000/jobs").then((response) => {
-      this.jobs = response.data;
-    });
+  async mounted() {
+    const response = await axios.get("http://localhost:3000/jobs");
+    this.jobs = response.data;
   },
 };
 </script>
