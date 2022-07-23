@@ -3,6 +3,11 @@ import { mount, RouterLinkStub } from "@vue/test-utils";
 import JobListing from "@/components/JobResults/JobListing.vue";
 
 describe("JobListing", () => {
+  const createJobProps = (jobProps = {}) => ({
+    title: "Vue Developer",
+    organization: "C2GEN",
+    ...jobProps,
+  });
   const createConfig = () => ({
     props: {
       job: {
