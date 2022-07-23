@@ -32,7 +32,7 @@
         </div>
 
         <div class="mt-2 text-center">
-          <router-link :to="'/jobs/results/' + job.id" class="text-brand-blue-1"
+          <router-link :to="jobPageLink" class="text-brand-blue-1"
             >Expand</router-link
           >
         </div>
@@ -48,6 +48,11 @@ export default {
     job: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    jobPageLink() {
+      return `/jobs/results/${this.job.id}`;
     },
   },
 };
