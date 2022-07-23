@@ -6,6 +6,7 @@ describe("JobListing", () => {
   const createJobProps = (jobProps = {}) => ({
     title: "Vue Developer",
     organization: "C2GEN",
+    locations: ["Lisbon"],
     ...jobProps,
   });
   const createConfig = (jobProps) => ({
