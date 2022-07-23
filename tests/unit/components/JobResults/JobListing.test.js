@@ -8,11 +8,10 @@ describe("JobListing", () => {
     organization: "C2GEN",
     ...jobProps,
   });
-  const createConfig = () => ({
+  const createConfig = (jobProps) => ({
     props: {
       job: {
-        title: "Vue Developer",
-        organization: "C2GEN",
+        ...jobProps,
       },
     },
     global: {
@@ -22,7 +21,8 @@ describe("JobListing", () => {
     },
   });
   it("renders job title", () => {
-    const wrapper = mount(JobListing, createConfig());
+    const props = createJobProps({ title: "Vue Pro" });
+    const wrapper = mount(JobListing, createConfig(props));
     expect(wrapper.text()).toMatch("Vue Developer");
   });
 
