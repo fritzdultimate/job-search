@@ -1,0 +1,76 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Vue Developer",
+      "organization": "Vue and Me",
+      "degree": "Master's",
+      "jobType": "Intern",
+      "locations": ["Lisbon"],
+      "minimumQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "preferredQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "description": [
+        "Away someone forget effect wait land",
+        "State even create can either. Character almost turn idea born its to. Understand ability another loose",
+        "Author act increase worry yeah"
+      ],
+      "dateAdded": "2022-07-03"
+    },
+    {
+      "id": 2,
+      "title": "React Developer",
+      "organization": "Vue and Me",
+      "degree": "Master's",
+      "jobType": "Intern",
+      "locations": ["Lisbon"],
+      "minimumQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "preferredQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "description": [
+        "Away someone forget effect wait land",
+        "State even create can either. Character almost turn idea born its to. Understand ability another loose",
+        "Author act increase worry yeah"
+      ],
+      "dateAdded": "2022-07-03"
+    },
+    {
+      "id": 3,
+      "title": "Angular Developer",
+      "organization": "Vue and Me",
+      "degree": "Master's",
+      "jobType": "Intern",
+      "locations": ["Lisbon"],
+      "minimumQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "preferredQualifications": [
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives",
+        "Mesh granular deliverables, engineer enterprise convergence, and synergize B2C initiatives"
+      ],
+      "description": [
+        "Away someone forget effect wait land",
+        "State even create can either. Character almost turn idea born its to. Understand ability another loose",
+        "Author act increase worry yeah"
+      ],
+      "dateAdded": "2022-07-03"
+    }
+  ]
+}
