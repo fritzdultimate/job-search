@@ -33,10 +33,10 @@
           <div>
             <ul class="pl-8 list-disc">
               <li
-                v-for="qualification in minimumQualifications"
+                v-for="qualification in job.minimumQualifications"
                 :key="qualification"
               >
-                {{ qualification }}m
+                {{ qualification }}
               </li>
             </ul>
           </div>
