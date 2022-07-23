@@ -1,4 +1,4 @@
-import { mount } from "@vue/test-utils";
+import { mount, RouterLinkStub } from "@vue/test-utils";
 
 import JobListing from "@/components/JobResults/JobListing.vue";
 
@@ -8,6 +8,11 @@ describe("JobListing", () => {
       props: {
         job: {
           title: "Vue Developer",
+        },
+      },
+      global: {
+        stubs: {
+          "router-link": RouterLinkStub,
         },
       },
     });
