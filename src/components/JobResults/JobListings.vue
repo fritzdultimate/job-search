@@ -3,7 +3,6 @@
     <ol>
       <job-listing />
       <job-listing />
-      <job-listing />
     </ol>
   </main>
 </template>
