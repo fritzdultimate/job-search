@@ -32,7 +32,7 @@
         </div>
 
         <div class="mt-2 text-center">
-          <router-link to="/jobs/results/1" class="text-brand-blue-1"
+          <router-link :to="'/jobs/results/' + job.id" class="text-brand-blue-1"
             >Expand</router-link
           >
         </div>
