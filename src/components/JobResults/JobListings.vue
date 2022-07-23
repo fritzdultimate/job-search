@@ -11,12 +11,14 @@
               Technical Program Manager, Perception, Augmented Reality
             </h2>
 
-            <div class="mr-5">
-              <span>C2GEN</span>
-            </div>
+            <div class="flex flex-row align-middle">
+              <div class="mr-5">
+                <span>C2GEN</span>
+              </div>
 
-            <div>
-              <span>Ifite Awka, Anambra, Nigeria</span>
+              <div>
+                <span>Ifite Awka, Anambra, Nigeria</span>
+              </div>
             </div>
           </div>
         </router-link>
