@@ -49,4 +49,14 @@ describe("JobListing", () => {
     expect(wrapper.text()).toMatch("Code");
     expect(wrapper.text()).toMatch("Develop");
   });
+
+  it("links to individual pages", () => {
+    const jobProps = createJobProps({
+      id: 2,
+    });
+    const wrapper = mount(JobListing, createConfig(jobProps));
+    const jobPageLink = wrapper.find("[data-test='job-page-link']");
+    const toProp = jobPageLink.props("to");
+    expect(toProp).toBe("/jobs/results/2");
+  });
 });
