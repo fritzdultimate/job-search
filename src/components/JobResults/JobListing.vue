@@ -36,7 +36,7 @@
                 v-for="qualification in minimumQualifications"
                 :key="qualification"
               >
-                {{ qualification }}
+                {{ qualification }}m
               </li>
             </ul>
           </div>
