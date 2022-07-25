@@ -12,7 +12,9 @@ describe("JobListings", () => {
   });
 
   it("creates a job listing for each received job", () => {
-    axios.get.mockResolvedValue({ data: [] });
+    axios.get.mockResolvedValue({ data: Array(15).fill({}) });
     const wrapper = shallowMount(JobListings);
+    const jobListings = wrapper.findAll("[data-test='job-listing']");
+    expect(jobListings).toHaveLength(15);
   });
 });
