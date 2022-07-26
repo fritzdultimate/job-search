@@ -2,7 +2,7 @@
   <main class="flex-auto p-8 bg-brand-gray-2">
     <ol>
       <job-listing
-        v-for="job in jobs"
+        v-for="job in displayJobs"
         :key="job.id"
         :job="job"
         data-test="job-listing"
@@ -23,6 +23,11 @@ export default {
     return {
       jobs: [],
     };
+  },
+  computed: {
+    displayJobs() {
+      return this.jobs.slice(0, 10);
+    },
   },
   async mounted() {
     const response = await axios.get("http://localhost:3000/jobs");
