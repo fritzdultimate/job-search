@@ -23,6 +23,7 @@ describe("JobListings", () => {
   });
 
   it("creates a job listing for a maximum of ten job", async () => {
+    jest.setTimeout(10000000000000000000000);
     axios.get.mockResolvedValue({ data: Array(15).fill({}) });
     const $route = {
       query: {
