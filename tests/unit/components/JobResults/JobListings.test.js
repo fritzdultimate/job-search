@@ -24,7 +24,18 @@ describe("JobListings", () => {
 
   it("creates a job listing for a maximum of ten job", async () => {
     axios.get.mockResolvedValue({ data: Array(15).fill({}) });
-    const wrapper = shallowMount(JobListings);
+    const $route = {
+      query: {
+        page: "5",
+      },
+    };
+    const wrapper = shallowMount(JobListings, {
+      global: {
+        mocks: {
+          $route,
+        },
+      },
+    });
     await flushPromises();
     const jobListings = wrapper.findAll("[data-test='job-listing']");
     expect(jobListings).toHaveLength(10);
