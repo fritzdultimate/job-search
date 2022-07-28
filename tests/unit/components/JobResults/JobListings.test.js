@@ -7,7 +7,18 @@ import { shallowMount, flushPromises } from "@vue/test-utils";
 describe("JobListings", () => {
   it("fetches jobs", () => {
     axios.get.mockResolvedValue({ data: [] });
-    shallowMount(JobListings);
+    const $route = {
+      query: {
+        page: "5",
+      },
+    };
+    shallowMount(JobListings, {
+      global: {
+        mocks: {
+          $route,
+        },
+      },
+    });
     expect(axios.get).toHaveBeenCalledWith("http://localhost:3000/jobs");
   });
 
