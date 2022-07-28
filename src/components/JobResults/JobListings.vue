@@ -57,7 +57,9 @@ export default {
     },
     nextPage() {
       const nextPage = this.currentPage + 1;
-      const maxPage = this.jobs.length / 10;
+      let maxPage = this.jobs.length / 10;
+      maxPage = maxPage > Math.floor(maxPage) ? maxPage + 1 : maxPage;
+      console.log(maxPage);
       return nextPage <= maxPage ? nextPage : undefined;
     },
     displayJobs() {
