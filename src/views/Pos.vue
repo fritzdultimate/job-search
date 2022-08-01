@@ -17,7 +17,7 @@
         </div>
         <div class="border-b flex w-full justify-center"></div>
         <div
-          v-for="i in 10"
+          v-for="i in 8"
           :key="i"
           class="flex rounded border py-4 px-3 my-2"
         >
@@ -129,7 +129,7 @@ export default {
   methods: {
     compute() {
       const dbName = "pos_moniepoint";
-      const request = indexedDB.open(dbName, 2);
+      // const request = indexedDB.open(dbName, 2);
     },
     showModal() {
       this.modalVisible = true;
